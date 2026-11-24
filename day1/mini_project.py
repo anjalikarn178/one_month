@@ -1,0 +1,28 @@
+student_name = input("Enter your name: ")
+roll_no = int(input("Enter your roll number: "))
+sub1 = float(input("Enter marks for subject 1: "))
+sub2 = float(input("Enter marks for subject 2: "))
+sub3 = float(input("Enter marks for subject 3: "))
+sub4 = float(input("Enter marks for subject 4: "))
+sub5 = float(input("Enter marks for subject 5: "))
+total_marks = sub1 + sub2 + sub3 + sub4 + sub5
+percentage = (total_marks / 500) * 100
+
+
+print("=================================================================")
+print("                  STUDENT REPORT CARD")
+print("=================================================================")
+print()
+print(f"Student Name: {student_name}")
+print(f"Roll Number: {roll_no}")
+print()
+print()
+print(f"Subject 1: {sub1}")
+print(f"Subject 2: {sub2}")
+print(f"Subject 3: {sub3}")
+print(f"Subject 4: {sub4}")
+print(f"Subject 5: {sub5}")
+print()
+print()
+print(f"Total Marks: {total_marks}")
+print(f"Percentage: {percentage}%")
